@@ -25,9 +25,9 @@ function lnbMenu(){
 			$parent.addClass('on');
 		}
 
-		if($parent.hasClass('has-menu')){
-			$(this).next('ul').find('li:first-child').addClass('on');
-		}
+		// if($parent.hasClass('has-menu')){
+		// 	$(this).next('ul').find('li:first-child').addClass('on');
+		// }
 
 		$siblings.removeClass('on');
 		$siblings.find('ul').slideUp(220);
